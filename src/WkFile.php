@@ -170,7 +170,7 @@ class WkFile {
 	 *
 	 * @return \SilverStripe\ORM\FieldType\DBHTMLText
 	 */
-	public static function get_html($obj, array $variables = [], string $template = '', string $type = 'pdf') {
+	public static function get_html($obj, array $variables = [], string $template = '', string $type = 'Pdf') {
 		Requirements::clear();
 
 		if (!$template) {
